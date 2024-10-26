@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalPredicts Consulting Ltd</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        .section h2 {
+            color: #004d40;
+        }
+        .cta {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>GlobalPredicts Consulting Ltd</h1>
+        <p>Stimuler la croissance durable et la résilience des entreprises agroalimentaires</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#projets">Projets</a>
+        <a href="#equipe">Équipe</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Accueil Section -->
+    <section id="accueil" class="section">
+        <div class="container">
+            <h2>Bienvenue chez GlobalPredicts Consulting Ltd</h2>
+            <p>Anticiper, conseiller, renforcer.</p>
+            <a href="#contact" class="cta">Contactez-nous</a>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="apropos" class="section">
+        <div class="container">
+            <h2>À propos de nous</h2>
+            <p>GlobalPredicts Consulting Ltd est un cabinet de conseil axé sur la croissance durable et la résilience des entreprises agroalimentaires face aux défis du marché et du climat.</p>
+            <p><strong>Mission :</strong> Fournir des solutions stratégiques pour renforcer la compétitivité et la résilience des entreprises agro-sylvo-pastorales et halieutiques.</p>
+            <p><strong>Vision :</strong> Devenir un leader dans le conseil stratégique pour les entreprises agroalimentaires.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Nos services</h2>
+            <ul>
+                <li>Études de marché et accès aux marchés</li>
+                <li>Appui à la commercialisation</li>
+                <li>Recherche de financement</li>
+                <li>Gestion des risques agro-climatiques</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2>Projets réalisés</h2>
+            <p>Découvrez nos projets récents tels que le projet S2P avec l’IFDC et d'autres collaborations.</p>
+        </div>
+    </section>
+
+    <!-- Équipe Section -->
+    <section id="equipe" class="section">
+        <div class="container">
+            <h2>Notre équipe</h2>
+            <p>Découvrez notre équipe de consultants experts, dont Bako Aristide Kevin, spécialiste en vulgarisation agricole et agroécologie.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Pour en savoir plus ou collaborer avec nous, remplissez le formulaire ci-dessous :</p>
+            <form>
+                <input type="text" name="nom" placeholder="Votre nom" required><br><br>
+                <input type="email" name="email" placeholder="Votre email" required><br><br>
+                <textarea name="message" placeholder="Votre message" rows="5" required></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 GlobalPredicts Consulting Ltd - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
